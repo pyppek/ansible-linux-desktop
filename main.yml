@@ -1,0 +1,10 @@
+---
+- name: Install applications
+  hosts: localhost
+  roles:
+    - apps
+
+# - name: Configurations
+#   hosts: localhost
+#   roles:
+#     - configs
